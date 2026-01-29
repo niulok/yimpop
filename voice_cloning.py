@@ -1,4 +1,4 @@
- load all the functions
+# load all the functions
 from voice_cloning.generation import *
 
 # provide a reference sound file, speech text and clone the voice

@@ -1,1 +1,2 @@
-pip install Voice-Cloning
+Voice-Cloning
+

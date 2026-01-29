@@ -11,9 +11,10 @@
     <script type="text/javascript" defer src="./static/js/main.js"></script>
   <body>
     <div class="prompt-engine">
-      <form action="" method="POST">
-        <input type="text" autoComplete="" placeholder="begin your creation"/>
-        <button type="submit" class="gn-btn">Generate</button>
+      <form action="/generate/" method="POST">
+        <label for="prompting">Generate</label>
+        <input type="text" placeholder="begin your creation" id="prompting" autoComplete=""  autocomplete="off" autocapitalize="off" spellcheck="false" />
+        <button type="submit" class="gn_btn">Generate</button>
       </form>
     </div>
   </body>

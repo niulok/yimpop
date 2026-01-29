@@ -2,12 +2,12 @@
 from voice_cloning.generation import *
 
 # provide a reference sound file, speech text and clone the voice
-sound_path = r"xx/xxx/xxx.wav" # support most of the sound formats
+sound_path = r"training/midi/audio/xxx.wav" # support most of the sound formats
 speech_text = "Please use this package carefully"
 
 generated_wav = speech_generator(
     voice_type = "western", # supports "indian" & "western"
-    sound_path = sound_path, 
+    sound_path = "generated/audio/", 
     speech_text=  speech_text
     )
 

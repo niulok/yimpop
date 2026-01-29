@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./static/css/styles.css">
     <script type="text/javascript" defer src="./static/js/main.js"></script>
   <body>
+    <?php include(__DIR__."/includes/header.php");?>
     <div class="prompt-engine">
       <form action="/generate/" method="POST">
         <label for="prompting">Generate</label>
@@ -17,5 +18,6 @@
         <button type="submit" class="gn_btn">Generate</button>
       </form>
     </div>
+    <?php include(__DIR__."/includes/footer.php");?>
   </body>
 </html>
